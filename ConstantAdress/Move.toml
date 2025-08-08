@@ -1,0 +1,21 @@
+[package]
+name = "constantAddressPkg1"
+version = "1.0.0"
+authors = []
+
+[addresses]
+deployer = "0x281d0fce12a353b1f6e8bb6d1ae040a6deba248484cf8e9173a5b428a6fb74e7"
+dev = "0x281d0fce12a353b1f6e8bb6d1ae040a6deba248484cf8e9173a5b428a6fb74e7"
+developer ="0x281d0fce12a353b1f6e8bb6d1ae040a6deba248484cf8e9173a5b428a6fb74e7"
+new_dev = "0xf286f429deaf08050a5ec8fc8a031b8b36e3d4e9d2486ef374e50ef487dd5bbd"
+supra_framework = "0x1"
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+
+
+[dev-dependencies]
